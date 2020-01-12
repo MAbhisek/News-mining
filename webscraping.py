@@ -2,10 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 import arrow
-import urllib2 as urb
-#code is in python2
-#this code is for extracting 5 years news from business standard website
-#you can do this for websites like moneycontrol and IIFL etc.
+import urllib.request as urb
+
 for year in range (2015,2018):
     for month in range (1,12):
         for day in range (1,31):
